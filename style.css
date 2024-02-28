@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(/image/amazon_logo.png);
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.location-p1{
+    color: #cccccc; 
+    font-size: 0.7rem;
+    margin-left: 15px;
+}
+
+.location-p2{
+    margin-left: 3px;
+}
+
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: 620px;
+    height: 40px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(240, 137, 20);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+
+/* Sign in section */
+
+.nav-signin span, .nav-return span{
+    font-size: 0.7rem;
+}
+
+.nav-signin .sign-second, .nav-return .return-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* Cart Section */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* Below panel */
+
+.head-panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head-panel .panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.head-panel .panel-options p{
+    display: inline;
+    margin-left: 1rem;
+
+}
+
+
+/* hero-section */
+
+.hero-section{
+    background-image: url(/image/hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-section .hero-msg{
+    background-color: #ffffff;
+    height: 2.5rem;
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.hero-section .hero-msg a{
+    text-decoration: none;
+    color: #298b8b;
+}
+
+.hero-section .hero-msg a:hover{
+    color: #6E260E;
+    text-decoration: underline;
+}
+
+
+/* Shop Section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+    padding-bottom: 20px;
+}
+
+.shop-section .shop-item{
+    height: 25rem;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+}
+
+.shop-item .item-content{
+    margin: 0rem 1rem;
+}
+
+.shop-item .item-content .box-img{
+    height: 16rem;
+    background-size: cover;
+    margin: 1rem 0rem;
+}
+
+.item-content a{
+    text-decoration: none;
+    color: #298b8b;
+}
+
+.item-content a:hover{
+    color: #6E260E;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+.foot-panel1{
+    background-color: #222f3d;
+    height: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.foot-panel1 a{
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-panel1 a:hover{
+    background-color: #1f2c3a;
+}
+
+.foot-panel2{
+    background-color: #15202c;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 5rem;
+}
+
+.sections{
+    margin: 2rem 0rem;
+    width: 20%;
+}
+
+.sections span{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sections ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sections ul li a:hover{
+    text-decoration: underline;
+}
