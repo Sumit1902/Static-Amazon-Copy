@@ -1,3 +1,3 @@
 # Static amazon Homepage Copy
 
-As a beginner Just created an static amazon home page using  HTML and CSS.
+Discover my beginner project: a static Amazon homepage crafted solely with HTML and CSS during my early learning phase. Experience the essence of Amazon's interface, showcasing my evolving skills in front-end web development.
